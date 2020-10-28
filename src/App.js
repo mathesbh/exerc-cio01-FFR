@@ -1,6 +1,7 @@
 
 import './App.css';
 import { MainMenu } from './components/MainMenu';
+import { SearchBar } from './components/SearchBar';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
 
       <div className="header-info">
         <MainMenu />
+        <SearchBar />
       </div>
     </header>
   );
