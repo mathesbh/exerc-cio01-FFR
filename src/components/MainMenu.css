@@ -1,0 +1,9 @@
+.main-menu{
+    list-style: none;
+}
+
+.main-menu li{
+    display: inline-block;
+    margin-left: 15px;
+    
+}

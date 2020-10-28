@@ -1,0 +1,12 @@
+.main-header{
+    display: flex;
+}
+
+.main-logo{
+    margin-left: 1%;
+}
+
+.header-info{
+    width: 80%;
+    text-align: right;
+}
