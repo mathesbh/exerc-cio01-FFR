@@ -9,9 +9,9 @@ import { SearchBar } from './components/SearchBar';
 export class App extends Component {
   state = {
     menuItems: [
-      { title: 'Google', link: 'https://google.com' },
-      { title: 'Apple', link: 'https://apple.com/br' },
-      { title: 'Microsoft', link: 'https://microsoft.com' },
+      { title: 'React', link: 'https://reactjs.org/' },
+      { title: 'Angular', link: 'https://angular.io/' },
+      { title: 'Vue', link: 'https://vuejs.org/' },
       { title: 'Puc Minas', link: 'https://pucminas.br' },
     ],
     contents:[
