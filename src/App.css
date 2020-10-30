@@ -10,3 +10,30 @@
     width: 80%;
     text-align: right;
 }
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.item{
+    flex: content;
+    margin: 1%;
+}
+
+.main-section{
+    width: 80vw;
+}
+
+.main-aside{
+    width: 20vw;
+}
+
+.main-aside li{
+    margin-bottom: 1em;
+}
+
+ul{
+    list-style: none;
+}
