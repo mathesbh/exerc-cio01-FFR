@@ -1,7 +1,7 @@
 
 import { Component } from 'react';
 import './App.css';
-import { ImageArticle } from './components/ImageArticle';
+import { MainArticle } from './components/MainArticle';
 import { MainMenu } from './components/MainMenu';
 import { NavMenu } from './components/NavMenu';
 import { SearchBar } from './components/SearchBar';
@@ -14,10 +14,10 @@ export class App extends Component {
       { title: 'Microsoft', link: 'https://microsoft.com' },
       { title: 'Puc Minas', link: 'https://pucminas.br' },
     ],
-    images:[
-      { src: 'https://miro.medium.com/max/3840/1*vHHBwcUFUaHWXntSnqKdCA.png', alt: 'Logo React'},
-      { src: 'https://www.itexto.com.br/devkico/wp-content/uploads/2016/04/angular-js_600x400.png', alt: 'Logo Angular'},
-      { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png', alt: 'Logo Vue'},
+    contents:[
+      { src: 'https://miro.medium.com/max/3840/1*vHHBwcUFUaHWXntSnqKdCA.png', alt: 'Logo React', title: 'React (web framework', content: 'React (also known as React.js or ReactJS) is an open-source, front end, JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies'},
+      { src: 'https://www.itexto.com.br/devkico/wp-content/uploads/2016/04/angular-js_600x400.png', alt: 'Logo Angular', title: 'Angular (web framework', content: 'Angular (commonly referred to as "Angular 2+" or "Angular v2 and above") is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations.'},
+      { src: 'https://vuejs.org/images/logo.png', alt: 'Logo Vue', title: 'Vue (web framework', content: 'Vue.js (commonly referred to as Vue; pronounced /vjuː/, like "view") is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications.'},
     ],
   }
   render(){
@@ -39,7 +39,7 @@ export class App extends Component {
         <section className="container main-section">
           
           <article className="item">
-            <ImageArticle images={this.state.images} />
+            <MainArticle contents={this.state.contents} />
           </article> 
 
           <aside className="main-aside item">
