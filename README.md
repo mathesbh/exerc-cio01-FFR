@@ -1,5 +1,5 @@
-# Projeto para explorar conhecimento do framework Reack (Exercício 01)
-## Diciplina framework front-end Reack
+# Projeto para explorar conhecimento do framework React (Exercício 01)
+## Diciplina framework front-end React
 ### Pós Desenvolvimento Web Full Stack - Puc Minas
 
 Conceitos apresentado na aula 01, referente ao exercício 
